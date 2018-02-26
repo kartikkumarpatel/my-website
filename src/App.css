@@ -1,28 +1,58 @@
+
 .App {
   text-align: center;
+  height: 1000px;
+  background-image: url('assests/background-image.jpg');
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.container{
+  width: 70%;
+  height: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fafafa;
+  opacity: .7;
+  border-top-left-radius: 5%;  
+  border-top-right-radius: 5%;  
+  border-bottom-left-radius: 5%;  
+  border-bottom-right-radius: 5%;  
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.nav{
+  float: right;
+  margin-right: 2%;
+  margin-top: 1%;  
+}
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #333; */
 }
 
-.App-title {
-  font-size: 1.5em;
+.nav li {
+  float: left;
 }
 
-.App-intro {
-  font-size: large;
+.nav li:last-child {
+  border-right: none;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-style: italic;
+}
+
+.nav li a:hover:not(.active) {
+  /* background-color: #111; */
+  color: orangered;
+}
+
+.nav .active {
+  color:orangered;
 }
