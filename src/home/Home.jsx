@@ -12,17 +12,18 @@ class Home extends Component {
 
             <br/>
 
-			<p>Hi, my name is Kartik Patel and I was born in New Zealand. My education has involved me completing my National Certificate of 
-            Education Achievement (NCEA) and also obtain a degree from the University of Auckland in Computer Science. My study was also further
-            extended to completing a Masters in IT where further technical skills were developed in Computer Science, but also learning
+			<p>Hi, my name is Kartik Patel and I was born in New Zealand. My education has involved completing my National Certificate of 
+            Education Achievement (NCEA) and also obtaining a degree from the University of Auckland in Computer Science. My study was also further
+            extended to complete a Masters in IT where further technical skills were developed in Computer Science. Another important aspect which was focused on in this duration was learning
             about professional standards in industries.
 
-
-            I have worked in a diverse range of places which have all developed different skill. My working career started off at a young age by started off to work in a family business which leads to a career as a sales consultant at Noel Leemings, being a shift manager at Coin Save and being a runner on a Tip Top ice cream delivery run. 
-
-            I have a huge inspiration for learning new technologies and the efficiency it can have on a humans life. I have huge inspirations for web development and have got a concrete understanding of the core programming languages (such as HTML, CSS, JS, BootStrap) that are required to develop a website. 
-            I enjoy learning new modern frameworks that would add value to my skill set. Along with web development, 
-            I have strengths in navigating myself around databases using SQL or MYSQL along with creating databases to 
+            <br/><br/>
+            I have worked in a diverse range of places which have all allowed me to develop different skills. My working career started off at a young age, working in the family business. This lead to a career as a sales consultant at Noel Leemings, becoming a shift manager at Coin Save and being a runner on a Tip Top ice cream delivery run. 
+			
+			<br/><br/>
+            I have a passion for learning about new technology and the efficiency it can have in a humans life. I have huge inspirations for web development and have a concrete understanding of the core programming languages (such as HTML, CSS, JS, BootStrap) that are required to develop a website. 
+            I enjoy learning about modern frameworks that would add value to my skill set. Along with web development, 
+            I have strengths in navigating myself around databases using SQL or MYSQL, along with creating databases to 
             obtain information by creating tables to hold data.</p>
 
        </div>

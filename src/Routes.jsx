@@ -12,7 +12,7 @@ class Routes extends Component {
 		return (
 			<div id="pageBody">
         
-			    <Route exact path="/home" component={Home}/>
+			    <Route exact path="/" component={Home} render={()=>(<Redirect to='/'/>)}/>
                 <Route exact path="/experience" component={Experience}/>
                 <Route exact path="/skills" component={Skills}/>
                 <Route exact path="/interests" component={Interests}/>
