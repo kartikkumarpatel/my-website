@@ -9,7 +9,7 @@ export class Header extends Component{
                     <li><a href="/">Home</a></li>
                     <li><a href="/interests">Interests</a></li>                
                     <li><a href="/skills">Skills</a></li>
-                    <li><a href="/experience">Experience</a></li>
+                    <li><a href="/experience">Work History</a></li>
                 </ul>
             </div>
         );
