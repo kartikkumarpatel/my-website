@@ -4,7 +4,7 @@ import {Timeline, TimelineEvent} from 'react-event-timeline';
 class Experience extends Component {
   render() {
     return (
-      <div className="Home">
+      <div className="experience">
           <h1>Work History</h1>
          
             <Timeline style={{float:"center", width:"50%"}}>
