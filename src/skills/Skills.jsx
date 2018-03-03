@@ -16,12 +16,11 @@ const data = [
   { skill: 'Martial Arts', desc: 'Been awarded a 3rd degree black belt. (Training for 13 years)' },
   { skill: 'Instructor', desc: 'Martial Arts instructor award for teaching (2010)' },
   { skill: 'Sales Consultant', desc: 'One of the top 50 sales consultants in New Zealand for sales in a technology store.' },
-
   { skill: 'Leadership', desc: 'Head of academics and deputy head boy (7th form High School, 2013)' },
-  { skill: 'Team Work', desc: 'Been part of many projects during my studies for presentations, development of code and working on a companies platform rebuild.' },
-
-
   { skill: 'Networking', desc: 'Working with switches and router devices to create basic network topology for packets to be sent to and fro (completed CCNA 1 certificate).' },
+
+
+  { skill: 'Team Work', desc: 'Been part of many projects during my studies for presentations, development of code and working on a companies platform rebuild.' },
   { skill: 'Communication', desc: 'Very good at working and bonding with new team members on projects.'},
   { skill: 'Databases', desc: 'Creating databases using SQL/MySQL code to create new tables and being able to manipulate the data within it.' },
   { skill: 'Front-End / Back-End Web Development', desc: 'Created websites from static websites, to dynamic websites being responsive for all screen sizes.' },
