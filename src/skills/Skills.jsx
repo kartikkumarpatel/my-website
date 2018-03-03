@@ -3,15 +3,14 @@ import Table from 'rc-table';
 import 'rc-table/assets/index.css';
 
 class Skills extends Component {
-  render() {
 
+  render() {
   const columns = [{
       title: 'Skill', dataIndex: 'skill', key:'skill', width: 200,
     }, {
       title: 'Description', dataIndex: 'desc', key:'desc', width: 500,
     }
   ];
-
 
 const data = [
   { skill: 'Martial Arts', desc: 'Been awarded a 3rd degree black belt. (Training for 13 years)' },
@@ -34,7 +33,9 @@ const data = [
       <div className="skills">
           <h1>Skills and Awards</h1>
 
-           <Table columns={columns} data={data} style={{marginLeft:"5%", marginRight:"5%"}}/>
+           <Table columns={columns} data={data} style={{marginLeft:"5%", marginRight:"5%", marginTop:"5%"}}/>
+      
+
       </div>
     );
   }
