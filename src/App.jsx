@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Routes from './Routes.jsx';
-import Header from './header/Header.jsx'
+import Header from './header/Header.jsx';
+import Footer from './footer/footer.jsx';
 
 class App extends Component {
   render() {
@@ -21,7 +22,11 @@ class App extends Component {
           <div className="pages">
             <Routes />
           </div>
-          
+
+          <br />
+          <div className="footer">
+            <Footer />
+          </div>
         </div>
       </Router>
 
