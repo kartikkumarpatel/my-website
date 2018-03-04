@@ -7,7 +7,6 @@ export class Header extends Component{
             <div className="nav">
                 <ul>
                     <li><a href="/">Home</a></li>
-                    <li><a href="/interests">Interests</a></li>                
                     <li><a href="/skills">Skills</a></li>
                     <li><a href="/experience">Work History</a></li>
                 </ul>

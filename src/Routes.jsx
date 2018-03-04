@@ -4,7 +4,6 @@ import { Route, Redirect} from 'react-router-dom';
 import Home from './home/Home.jsx'
 import Experience from './experience/Experience';
 import Skills from './skills/Skills';
-import Interests from './interests/Interests.jsx';
 import Header from './header/Header.jsx';
 
 class Routes extends Component {
@@ -15,7 +14,6 @@ class Routes extends Component {
 			    <Route exact path="/" component={Home} render={()=>(<Redirect to='/'/>)}/>
                 <Route exact path="/experience" component={Experience}/>
                 <Route exact path="/skills" component={Skills}/>
-                <Route exact path="/interests" component={Interests}/>
                 <Route path='/header' component={Header}/>
 	
 		    </div>)
