@@ -4,6 +4,7 @@
   margin-right: 2%;
   margin-top: 1%;  
 }
+
 .nav ul {
   list-style-type: none;
   margin: 0;
@@ -30,30 +31,29 @@
 
 .nav li a:hover:not(.active) {
   color: orangered;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-.nav li.dropdown{
-  display: inline-block;
+.nav li a{
+  display: block;
 }
+
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
-/*.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}*/
+.dropdown-content a{
+  font-size: 13px;
+  text-align: left;
+}
 
 .dropdown:hover .dropdown-content {
     display: block;
+
 }
 
 
