@@ -7,8 +7,6 @@ import './language.css';
 
 export class LanguageSkills extends Component{
 	render(){
-		
-
 		return(
 			<div>
 				<h1>Language Skill Levels</h1>
