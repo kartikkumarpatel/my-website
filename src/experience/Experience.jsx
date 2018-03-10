@@ -1,10 +1,16 @@
 import React, { Component } from 'react';
 import {Timeline, TimelineEvent} from 'react-event-timeline';
+import {Helmet} from 'react-helmet';
 
 class Experience extends Component {
   render() {
     return (
       <div className="experience">
+          <Helmet>
+            <title>My Experience</title>
+          </Helmet>
+
+
           <h1>Work History</h1>
          
             <Timeline style={{float:"center", width:"50%"}}>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Table from 'rc-table';
 import 'rc-table/assets/index.css';
+import {Helmet} from 'react-helmet';
 
 class Skills extends Component {
 
@@ -30,6 +31,10 @@ const data = [
 
     return (
       <div className="skills">
+        <Helmet>
+          <title> Personal Skills </title>
+        </Helmet>
+        
           <h1>Skills and Awards</h1>
 
            <Table columns={columns} data={data} style={{marginLeft:"5%", marginRight:"5%", marginTop:"5%"}}/>

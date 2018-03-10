@@ -3,12 +3,17 @@ import CircularProgressbar from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import {Row, Col} from 'react-bootstrap';
 import './language.css';
+import {Helmet} from 'react-helmet';
 
 
 export class LanguageSkills extends Component{
 	render(){
 		return(
 			<div>
+				<Helmet>
+					<title>Language Skills</title>
+				</Helmet>
+
 				<h1>Language Skill Levels</h1>
 				<div>
 					<Col sm={1} className="cicular">
