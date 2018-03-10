@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import './home.css';
-import me from '../assests/tem.jpg';
+import me from '../assests/image.jpg';
 
 class Home extends Component {
   render() {
     return (
-      <div className="Home">
+      <div className="container">
             <h1>Biography</h1>
 
-            <img src={me} className="user-image" alt="Kartik Patel" />
+              <p><img src={me} className="user-image" alt="Kartik Patel" /></p>
 
             <br/>
 
