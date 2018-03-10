@@ -38,10 +38,11 @@
   display: block;
 }
 
-.nav li a:focus{
+.nav li .active{
   color: orangered;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
+
 
 .dropdown-content {
     display: none;
@@ -60,10 +61,5 @@
     display: block;
 }
 
-.dropdown-content a:focus{
-  color: orangered;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-
-}
 
 
