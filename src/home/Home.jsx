@@ -10,7 +10,6 @@ class Home extends Component {
 
               <p><img src={me} className="user-image" alt="Kartik Patel" /></p>
 
-            <br/>
 
 			<p className="bio-info">Hi, my name is Kartik Patel and I was born in New Zealand. My education has involved completing my National Certificate of 
             Education Achievement (NCEA), Level 1, 2 and 3, and also obtaining a degree from the University of Auckland in Computer Science. My study was also further
