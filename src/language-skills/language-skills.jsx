@@ -11,10 +11,10 @@ export class LanguageSkills extends Component{
 		return(
 			<div>
 				<Helmet>
-					<title>Language Skills</title>
+					<title>Expertise Level</title>
 				</Helmet>
 
-				<h1>Language Skill Levels</h1>
+				<h1>Expertise Level</h1>
 				<div>
 					<Col sm={1} className="cicular">
 						<h4>HTML</h4>
@@ -53,6 +53,11 @@ export class LanguageSkills extends Component{
 
 					<Col sm={1} className="cicular">
 						<h4>Python</h4>
+						<CircularProgressbar percentage={60} />
+					</Col>
+
+					<Col sm={1} className="cicular">
+						<h4>GitHub Terminal</h4>
 						<CircularProgressbar percentage={60} />
 					</Col>
 

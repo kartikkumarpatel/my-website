@@ -33,7 +33,7 @@ export class Header extends Component{
                         
                         <div className="dropdown-content" activeClassName="active">
                           <NavLink to="/skills" activeClassName="active" onClick={this.handleDropChange}>Personal Skills</NavLink>
-                          <NavLink to="/langauge-skills" activeClassName="active" onClick={this.handleDropChange}>Language Skills</NavLink>
+                          <NavLink to="/langauge-skills" activeClassName="active" onClick={this.handleDropChange}>Expertise Level</NavLink>
                         </div>
                     </li>
 
