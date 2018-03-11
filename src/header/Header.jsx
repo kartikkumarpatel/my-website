@@ -32,7 +32,7 @@ export class Header extends Component{
                         {this.state.drop ? <NavLink to="#" className="active">Skills</NavLink> : <NavLink to="#">Skills</NavLink>}
                         
                         <div className="dropdown-content" activeClassName="active">
-                          <NavLink to="/Skills" activeClassName="active" onClick={this.handleDropChange}>Personal Skills</NavLink>
+                          <NavLink to="/skills" activeClassName="active" onClick={this.handleDropChange}>Personal Skills</NavLink>
                           <NavLink to="/langauge-skills" activeClassName="active" onClick={this.handleDropChange}>Language Skills</NavLink>
                         </div>
                     </li>
