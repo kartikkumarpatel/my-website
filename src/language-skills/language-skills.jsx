@@ -33,7 +33,7 @@ export class LanguageSkills extends Component{
 
 					<Col sm={1} className="cicular">
 						<h4>React</h4>
-						<CircularProgressbar percentage={80} />
+						<CircularProgressbar percentage={60} />
 					</Col>
 
 					<Col sm={1} className="cicular">
@@ -59,6 +59,11 @@ export class LanguageSkills extends Component{
 					<Col sm={1} className="cicular">
 						<h4>GitHub Terminal</h4>
 						<CircularProgressbar percentage={60} />
+					</Col>
+
+					<Col sm={1} className="cicular">
+						<h4>SQL</h4>
+						<CircularProgressbar percentage={70} />
 					</Col>
 
 				</div>
